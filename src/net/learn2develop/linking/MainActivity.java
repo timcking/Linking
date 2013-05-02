@@ -12,11 +12,9 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /*
         //---link to Activity2---
         Intent i = new Intent("net.learn2develop.Activity2");
         startActivity(i);
-        */
 
         /*
         //---link to Activity2---
@@ -31,10 +29,10 @@ public class MainActivity extends Activity {
         startActivity(i);
         */
         
-        
+        /*
         Intent i = new Intent("net.learn2develop.Activity2");
         startActivity(Intent.createChooser(i, "Choose an application"));
-        
+        */
         
         /*
         //---the following will never link to Activity2---
